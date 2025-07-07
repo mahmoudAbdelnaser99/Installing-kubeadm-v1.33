@@ -92,15 +92,14 @@ Check node status
 ```
 kubectl get nodes
 ```
-## to enable autocomplete for kubernetes commands
+![alt text](images/getnodes.png)
+## 💡 to enable auto-completion for kubernetes commands
 ```bash
 sudo echo "source <(kubectl completion bash)" >> ~/.bashrc
 sudo echo "alias k=kubectl" >> ~/.bashrc
 sudo echo "complete -F __start_kubectl k" >> ~/.bashrc
 source ~/.bashrc
 ```
-
-![alt text](images/getnodes.png)
 
 # 📂 Author 
 # Mahmoud Abdelnaser Elsayed
