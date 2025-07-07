@@ -8,7 +8,7 @@ This project sets up a Kubernetes cluster manually using `kubeadm` on AWS EC2 in
 - 👑   1 Master Node
 - 🧑‍💻 2 Worker Nodes
 
-All nodes run Ubuntu 20.04 and are configured using a custom automation script.
+All nodes run Ubuntu 22.04 and are configured using a custom automation script.
 
 ---
 
@@ -18,7 +18,7 @@ Before getting started, ensure the following:
 
 - AWS account with permission to launch EC2 instances
 - EC2 configuration:
-  - **AMI**: Ubuntu Server 20.04 (64-bit)
+  - **AMI**: Ubuntu Server 22.04LTS (64-bit)
   - **Instance Type**: t3.medium
   - **Storage**: 20 GB (EBS Volume)
   - **Security Group**:
@@ -91,6 +91,13 @@ sha256:37e35d7ea83599356de1fc5c80c282285cc3c749443a1dafd8e73f40
 Check node status
 ```
 kubectl get nodes
+```
+## to enable autocomplete for kubernetes commands
+```bash
+sudo echo "source <(kubectl completion bash)" >> ~/.bashrc
+sudo echo "alias k=kubectl" >> ~/.bashrc
+sudo echo "complete -F __start_kubectl k" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ![alt text](images/getnodes.png)
