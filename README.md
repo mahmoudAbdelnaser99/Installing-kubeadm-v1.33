@@ -70,7 +70,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 ### 🌐 Deploy a Pod Network CNI (Flannel)  through the master node:
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kubeflannel.yml
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 ### To Create a new token as root
 ```bash
