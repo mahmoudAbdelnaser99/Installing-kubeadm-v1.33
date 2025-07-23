@@ -1,5 +1,5 @@
 # Installing-kubeadm-v1.33 
-![Kubernetes](https://img.shields.io/badge/K8s-kubeadm-blue?logo=kubernetes)  ![AWS](https://img.shields.io/badge/Cloud-AWS-232F3E?logo=amazon-aws&logoColor=white)  ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04-orange?logo=ubuntu)
+![Kubernetes](https://img.shields.io/badge/K8s-kubeadm-blue?logo=kubernetes)  ![AWS](https://img.shields.io/badge/Cloud-AWS-232F3E?logo=amazon-aws&logoColor=white)  ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2022.04-orange?logo=ubuntu)
 
 # Setup Kubernetes Cluster on AWS using kubeadm v1.33
 
